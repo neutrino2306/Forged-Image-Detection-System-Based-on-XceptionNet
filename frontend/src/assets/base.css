@@ -1,0 +1,69 @@
+/**, *::before, *::after {*/
+/*  box-sizing: border-box;*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*}*/
+
+/*html {*/
+/*  box-sizing: border-box;*/
+/*}*/
+
+/*body {*/
+/*  font-family:*/
+/*          Inter,*/
+/*          -apple-system,*/
+/*          BlinkMacSystemFont,*/
+/*          'Segoe UI',*/
+/*          Roboto,*/
+/*          Oxygen,*/
+/*          Ubuntu,*/
+/*          Cantarell,*/
+/*          'Fira Sans',*/
+/*          'Droid Sans',*/
+/*          'Helvetica Neue',*/
+/*          sans-serif;*/
+/*  text-rendering: optimizeLegibility;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+/*a {*/
+/*  text-decoration: none;*/
+/*  color: inherit;*/
+/*}*/
+
+/*img {*/
+/*  max-width: 100%;*/
+/*  height: auto;*/
+/*}*/
+/* base.css */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('/src/img/background.jpg'); /* 路径可能需要根据您的项目结构调整 */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
